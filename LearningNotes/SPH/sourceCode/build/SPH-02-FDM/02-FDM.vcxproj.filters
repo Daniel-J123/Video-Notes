@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\CodeProjects\VScode\Zhihu_Paper\LearningNotes\SPH\sourceCode\SPH-02-FDM\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\CodeProjects\VScode\Zhihu_Paper\LearningNotes\SPH\sourceCode\SPH-02-FDM\SPH02-FDM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CodeProjects\VScode\Zhihu_Paper\LearningNotes\SPH\sourceCode\SPH-02-FDM\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A11ED780-F792-330F-99C9-691CE537D258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{64969B9C-24EB-37F1-8630-B26D29320A6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

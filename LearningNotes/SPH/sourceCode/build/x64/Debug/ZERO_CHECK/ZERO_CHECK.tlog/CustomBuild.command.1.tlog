@@ -1,0 +1,10 @@
+^E:\CODEPROJECTS\VSCODE\ZHIHU_PAPER\LEARNINGNOTES\SPH\SOURCECODE\BUILD\CMAKEFILES\D91E10EF781892E6691464CD6FBED805\GENERATE.STAMP.RULE
+setlocal
+D:\Install_SoftWare\CMake3.16\bin\cmake.exe -SE:/CodeProjects/VScode/Zhihu_Paper/LearningNotes/SPH/sourceCode -BE:/CodeProjects/VScode/Zhihu_Paper/LearningNotes/SPH/sourceCode/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/CodeProjects/VScode/Zhihu_Paper/LearningNotes/SPH/sourceCode/build/SPH-Method.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
